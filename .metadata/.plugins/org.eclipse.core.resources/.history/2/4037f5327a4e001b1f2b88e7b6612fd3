@@ -1,0 +1,14 @@
+package chap1_2;
+//가우스덧셈을 이용하여 n까지의 정수 합 구하기
+public class ex8 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	static int sum_g(int n) {
+		int sum_g=0;//가우스 덧셈을 이용한 정수합
+		
+		return sum_g;
+	}
+}

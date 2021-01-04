@@ -1,0 +1,21 @@
+package chap01;
+//세값의 중앙값구하기
+public class P1C_1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	static int med3(int a, int b, int c) {
+		if(a>=b)
+			if(b>=c) return b;
+			else if(a<=c) return a;
+			else return c;
+		else if(a>c)
+			return a;
+		else if(b>c)
+			return c;
+		else return b;
+	}
+
+}

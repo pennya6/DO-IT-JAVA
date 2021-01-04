@@ -1,0 +1,17 @@
+package chap1_2;
+
+import java.util.Scanner;
+
+//n단이 피라미드 출력
+public class ex16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		
+	}
+	static void spira(int n) {
+		
+	}
+
+}

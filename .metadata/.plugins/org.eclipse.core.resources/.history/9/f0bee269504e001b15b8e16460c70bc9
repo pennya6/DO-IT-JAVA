@@ -1,0 +1,10 @@
+package chap01;
+//세값의 중앙값구하기
+public class P1C_1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

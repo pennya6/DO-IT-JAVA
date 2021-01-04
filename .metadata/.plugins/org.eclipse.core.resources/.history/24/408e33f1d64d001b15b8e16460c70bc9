@@ -1,0 +1,14 @@
+package chap01;
+
+import java.util.Scanner;
+
+public class Max3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("세정수의 최대값을 구하자");
+		System.out.print("a:");
+		int a= sc.nextInt();
+	}
+
+}

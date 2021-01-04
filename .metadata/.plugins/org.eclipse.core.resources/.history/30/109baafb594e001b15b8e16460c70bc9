@@ -1,0 +1,10 @@
+package chap1_2;
+//가우스덧셈을 이용하여 n까지의 정수 합 구하기
+public class ex8 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

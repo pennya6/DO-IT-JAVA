@@ -1,0 +1,16 @@
+//3개의 정수값 가운데 최대값을 구하여 출력합니다.
+package chap01;
+
+public class Max3m {
+
+	//최대값을 구하는 함수 
+	static int Max3(int a,int b,int c) {
+		int max=a;
+		if(b>max) max=b;
+		if(c>max) max=c;
+		return max;
+	}
+	public static void main(String args[]) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package chap1_2;
+//n이 양수인 경우에만 합 구하기
+public class p1_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
