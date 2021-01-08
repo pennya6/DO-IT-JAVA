@@ -13,6 +13,7 @@ public class backjoon2960 {
 		int n=s.nextInt();
 		System.out.println("몇번째 지워진 숫자를 출력할것인가?:");
 		int k=s.nextInt();
+		//2는 count 1번
 		int count=1;
 		
 		boolean isPrime[]=new boolean[n+1];
@@ -22,9 +23,13 @@ public class backjoon2960 {
 		}
 		
 		for(int i=2;i<=n;i++) {
+			//false이면 continue
 			if(!isPrime[i]) {
 				continue;
 			}
+			//지금 false인경우
+			//2  4 6 7 8 10 
+			//3  6 9 12
 			for(int j=i*2;j<=n;j+=i) {
 				count++;
 				if(count==k)
