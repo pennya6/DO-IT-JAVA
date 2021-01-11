@@ -6,9 +6,13 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="chapter2.PhysicalExamination.PhyscData"/>
+    <fullyQualifiedTypeName name="chapter2.P2_14.PhyscData"/>
+    <fullyQualifiedTypeName name="chapter2.EX10.PhyscData"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.vmSymbols"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

@@ -68,9 +68,14 @@ public class P2_14 {
 		System.out.println("\n시력분포");
 		
 		for(int i=0;i<VMAX;i++) {
-			System.out.printf("3.1f~:%2s명\n",i/10.0,vdist[i]);
+			System.out.printf("%3.1f~:%2s명\n",i/10.0,vdist[i]);
 		}
 
 	}
 } 
-	
+//JAVA prinf 
+//서식이 있는 출력
+//%f: 실수
+//%c: 문자
+//%s:문자열
+//%d:정수

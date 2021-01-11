@@ -1,9 +1,0 @@
-package chap1_2;
-//1부터 n까지의 정수합 구하기
-public class p1_4 {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

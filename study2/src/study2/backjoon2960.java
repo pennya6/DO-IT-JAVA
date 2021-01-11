@@ -14,14 +14,12 @@ public class backjoon2960 {
 		System.out.println("몇번째 지워진 숫자를 출력할것인가?:");
 		int k=s.nextInt();
 		//2는 count 1번
-		int count=1;
-		
+		int count=1;		
 		boolean isPrime[]=new boolean[n+1];
 		//초기화 부분
 		for(int i=2;i<=n;i++) {
 			isPrime[i]=true;
-		}
-		
+		}		
 		for(int i=2;i<=n;i++) {
 			//false이면 continue
 			if(!isPrime[i]) {
@@ -35,10 +33,6 @@ public class backjoon2960 {
 				if(count==k)
 					System.out.println(j);
 			}
-		}
-		
-		
-
-		
+		}		
 	}
 }

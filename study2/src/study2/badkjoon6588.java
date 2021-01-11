@@ -37,8 +37,6 @@ public class badkjoon6588 {
                 }
             }
 		}
-			
-
 	}
 
 }
