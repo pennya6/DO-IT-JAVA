@@ -12,10 +12,11 @@ public class backjoon8958 {
         String[] str = new String[num+1];
 
         for (int i = 0; i < num; i++) {
-            int count = 0, sum = 0;
+            int count = 0;
+            int sum = 0;
             str[i] = sc.next();
             for (int j =0; j < str[i].length(); j++) {
-                if (str[i].charAt(j) == '0')
+                if (str[i].charAt(j) == 'o')
                     sum += ++count;
                 else count = 0;
             }

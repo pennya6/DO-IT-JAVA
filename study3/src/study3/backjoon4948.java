@@ -30,7 +30,7 @@ public class backjoon4948 {
 	
 			if(n==0) break;
 			
-			for(int i=n;i<=m;i++) {
+			for(int i=n+1;i<=m;i++) {
 				if(isPrime[i]) count++;
 			}
 			System.out.println(count);						
