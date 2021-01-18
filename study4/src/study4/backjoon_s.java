@@ -1,7 +1,7 @@
 package study4;
 
 import java.util.Scanner;
-
+//10809
 //알파벳 소문자 단어 s
 public class backjoon_s {
 //indexof

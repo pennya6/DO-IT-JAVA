@@ -1,41 +1,53 @@
 package study4;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 //binarysearch
-
+//2776
 public class backjoon_yeonjong {
-	static int check(int []a,int []b) {
-		int index[]=new int[b.length];
-		for(int i=0;i<b.length;i++) {
-			if(a[i]==b[i])
-				index[i]=1;
-			else index[i]= 0;
-		}
-		return index[];
-	}
-
+	//이진탐색-> 반드시 정렬되어있어야함
 	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
-		int t=s.nextInt(); //test size
-		
-		for(int i=0;i<t;i++) {
-			
-			int n=s.nextInt(); //정수수
-			int n1[]=new int[n];
-			
-			for(int j=0;j<n;j++) {
-				n1[j]=s.nextInt();
-			}
-			
-			int m=s.nextInt();
-			int n2[]=new int[m];
-			
-			for(int g=0;g<n;g++) {
-				n2[g]=s.nextInt();
-			}
-			
-			System.out.println(check(n1,n2));	
-		}
-	}
 
-}
+		  Scanner sc = new Scanner(System.in);
+		  int T = sc.nextInt();
+		  ArrayList output = new ArrayList();
+		  
+		  for (int i = 0; i < T; i++) {
+
+		   int N = sc.nextInt();
+
+		   if(N < 0 || N > 1000000) {
+			   
+		    System.out.println("범위 초과");
+		    
+		   } 
+		   else {
+			   
+			    int[] note1 = new int[N];
+			    
+				    for(int j = 0; j < N; j++) {
+				    	
+				      note1[j] = sc.nextInt();
+				    }
+			    
+			    Arrays.sort(note1); // 정렬
+			    
+			    int M = sc.nextInt();
+			    // 노드에 값들을 넣었으니, 해당 값들을 찾는 알고리즘 구현하면 된다.
+			    for(int k = 0; k < M; k++) {
+			     // note1(수첩1)을 검색하여 입력받은 값(수첩2)이 있는지 없는지 판단, 있으면 1, 없으면 0을 sb에 넣는다.
+			     if(Arrays.binarySearch(note1, sc.nextInt()) > -1) {
+			      output.add(1);
+			     }else {
+			      output.add(0);
+			     }
+			    }
+			    
+			    for(int q = 0; q < note1.length; q++) {
+			     System.out.println(output.get(q));
+			    }
+		   }
+		  }
+		 }
+		}
