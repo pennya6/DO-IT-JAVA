@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="chapter2.P2_14.PhyscData"/>
     <fullyQualifiedTypeName name="chapter2.EX10.PhyscData"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.vmSymbols"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="jdk.tools.jlink.internal.SymLinkResourcePoolEntry"/>
     <fullyQualifiedTypeName name="chapter3_1.P3_8.PhyscData"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -20,16 +19,24 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="chapter4.P4_1.EmptyIntStackException"/>
     <fullyQualifiedTypeName name="chapter4.P4_1.OverflowIntStackException"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.IntStack"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="chapter4.Ex1.IntStack.OverflowIntStackException"/>
     <fullyQualifiedTypeName name="chapter4.Ex1.IntStack.EmptyIntStackException"/>
     <fullyQualifiedTypeName name="chapter4.IntStack.OverflowIntStackException"/>
     <fullyQualifiedTypeName name="chapter4.IntStack"/>
     <fullyQualifiedTypeName name="chapter4.IntStack.EmptyIntStackException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
     <fullyQualifiedTypeName name="chapter4.IntQueue.OverFlowIntQueueException"/>
     <fullyQualifiedTypeName name="chapter4.IntQueue.EmptyIntQueueException"/>
+    <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+    <fullyQualifiedTypeName name="study6.backjoon_12605.OverflowIntStackX2Exception"/>
+    <fullyQualifiedTypeName name="study6.backjoon_12605.EmptyIntStackX2Exception"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.IntStack"/>
+    <fullyQualifiedTypeName name="study6.IntStack"/>
+    <fullyQualifiedTypeName name="study6.IntStack.EmptyIntStackX2Exception"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
+    <fullyQualifiedTypeName name="study6.IntStack.OverflowIntStackX2Exception"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
