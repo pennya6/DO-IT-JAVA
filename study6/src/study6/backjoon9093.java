@@ -10,7 +10,7 @@ public class backjoon9093 {
 		Scanner s= new Scanner(System.in);
 		int test=Integer.parseInt(s.nextLine());
 		
-		IntStack stack=new IntStack();
+		StringStack stack=new StringStack(test);
 		
 		for(int i=0;i<test;i++) {
 			String sentence=s.nextLine();

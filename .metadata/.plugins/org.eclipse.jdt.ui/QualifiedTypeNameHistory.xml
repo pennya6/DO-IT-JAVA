@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.vmSymbols"/>
     <fullyQualifiedTypeName name="jdk.tools.jlink.internal.SymLinkResourcePoolEntry"/>
     <fullyQualifiedTypeName name="chapter3_1.P3_8.PhyscData"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="study4.backjoon_online.Member"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -35,8 +34,13 @@
     <fullyQualifiedTypeName name="study6.IntStack.EmptyIntStackX2Exception"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
     <fullyQualifiedTypeName name="study6.IntStack.OverflowIntStackX2Exception"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringStack"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>

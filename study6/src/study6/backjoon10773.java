@@ -19,18 +19,20 @@ public class backjoon10773 {
 		//자바의 스택 클래스
 		Stack<Integer> stack = new Stack<Integer>();
 		
-
 		int n;
 		int sum=0;
 		for(int i=0;i<k;i++) {
 			n=s.nextInt();
+			//0을 외치면 pop -> 삭제
 			if(n==0) {
 				stack.pop();
 					}
+			//아닌 경우에는 맞게 부름
 			else {
 				stack.push(n);
 					}
 		}
+		//pop된 아이들을 제외한 모든 스택의 합
 		for(int o:stack) {
 			sum+=o;
 			}
