@@ -1,5 +1,6 @@
 package study6;
-
+//1202
+//º¸¼®µµµÏ
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
