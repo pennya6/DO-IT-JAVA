@@ -16,7 +16,7 @@ public class baekjoonsortinside {
 	static void bubbleSort(String[] a, int n) {
 		for(int i=0;i<n-1;i++) {
 			for(int j=n-i;j>i;j--) {
-				if(a[j]>a[j+1])
+				//if(a[j]>a[j+1])
 					swap(a, j-1, j);
 			}
 		}
