@@ -1,4 +1,4 @@
-package study8;
+package study9;
 
 import java.util.Scanner;
 
@@ -10,7 +10,11 @@ import java.util.Scanner;
 
 //2차원 배열의 퀵소트 정렬?
 //1차원 배열 두개로 각각 스캔 값 입력받아 비교? -> 문제점 : 나이 배열 퀵소트 완료후 이름 배열에 해당 인덱스값을 모른다.
-//2차원 배열로 비교? 
+//2차원 배열로 비교? -> 2차원 배열은 퀵정렬이 불필요? array.sort(안정적정렬)
+
+//안정적 정렬?
+//들어온 순서를 그대로 유지하는 정렬
+
 public class baekjoon10814 {
 	static void swap(int []a,int idx1,int idx2) {
 		int t=a[idx1];
