@@ -1,3 +1,5 @@
+package study12;
+
 
 // 해당 정답 메서드는 소스 코드의 맨 아래쪽에 있습니다.
 
@@ -145,7 +147,6 @@ public class Intset {
 		}
 
 		// 집합 s와 차집합
-		// 순서? 
 		public boolean remove(Intset s) {
 			boolean flag = false;
 			for (int i = 0; i < num; i++)
